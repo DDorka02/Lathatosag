@@ -86,3 +86,31 @@ const SZEMELY1 = {
 console.log(SZEMELY1.nev)
 SZEMELY1.barat=true
 console.log(SZEMELY1) // java sript objektum egy olyan öszzetet   ami össze tartozó adatoka kezel egybe, kulcs értékű ada tokból áll, a kulcsok jelentik ...az érték meg a hozzájuk tarózó értékeket, {} között vannak 
+
+const SZEMELY2 = {
+    nev:"Béla",
+    tel:"12345",
+    kor:30,
+    barat:false}
+
+console.log(SZEMELY2)
+
+
+const SZEMELYLISTA = [
+
+    {
+        nev: "Gabi",
+        tel: "12345",
+        kor: 12
+    },
+    {
+        nev:"Béla",
+        tel:"12345",
+        kor:30,
+        barat:false
+    }
+    
+
+]
+
+console.log(SZEMELYLISTA[0].kor)
